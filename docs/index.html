@@ -2,16 +2,43 @@
 <html lang="en">
 
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>reveal.js - Barebones</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.1.3/dist/reveal.css" integrity="sha256-NJHdlTYeYrxjYepxUX7+2SazM1C6AXLnzFu4z4CUnog="
+	 crossorigin="anonymous">
+	<link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
 </head>
 
 <body>
 
-    <script src='js/main.js'></script>
+	<div class="reveal">
+		<div class="slides">
+
+			<section>
+				<h2>Barebones Presentation</h2>
+				<p>This example contains the bare minimum includes and markup required to run a reveal.js presentation.</p>
+			</section>
+
+			<section>
+				<h2>No Theme</h2>
+				<p>There's no theme included, so it will fall back on browser defaults.</p>
+			</section>
+
+		</div>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.1.3/dist/reveal.js" integrity="sha256-UmB9np9Ri52AixfSNuylrzAll3wJ12BRzQu5HR32uKU="
+	 crossorigin="anonymous">
+
+	</script>
+	<script src='js/main.js'>
+
+	</script>
+	<script>
+		Reveal.initialize();
+	</script>
 </body>
 
 </html>
